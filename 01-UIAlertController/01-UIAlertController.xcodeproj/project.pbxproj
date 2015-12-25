@@ -14,6 +14,7 @@
 		9610813C1C2D5E3C00EDF33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9610813A1C2D5E3C00EDF33C /* LaunchScreen.storyboard */; };
 		961081471C2D5E3C00EDF33C /* _1_UIAlertControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961081461C2D5E3C00EDF33C /* _1_UIAlertControllerTests.swift */; };
 		961081521C2D5E3D00EDF33C /* _1_UIAlertControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961081511C2D5E3D00EDF33C /* _1_UIAlertControllerUITests.swift */; };
+		961081601C2D6ADF00EDF33C /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9610815F1C2D6ADF00EDF33C /* UIAlertController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9610814D1C2D5E3D00EDF33C /* 01-UIAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-UIAlertControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		961081511C2D5E3D00EDF33C /* _1_UIAlertControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_UIAlertControllerUITests.swift; sourceTree = "<group>"; };
 		961081531C2D5E3D00EDF33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9610815F1C2D6ADF00EDF33C /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Extension.swift"; path = "../../../../../💗常用延伸代码/Extension/UIAlertController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				961081311C2D5E3C00EDF33C /* AppDelegate.swift */,
+				9610815F1C2D6ADF00EDF33C /* UIAlertController+Extension.swift */,
 				961081331C2D5E3C00EDF33C /* ViewController.swift */,
 				961081351C2D5E3C00EDF33C /* Main.storyboard */,
 				961081381C2D5E3C00EDF33C /* Assets.xcassets */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961081601C2D6ADF00EDF33C /* UIAlertController+Extension.swift in Sources */,
 				961081341C2D5E3C00EDF33C /* ViewController.swift in Sources */,
 				961081321C2D5E3C00EDF33C /* AppDelegate.swift in Sources */,
 			);

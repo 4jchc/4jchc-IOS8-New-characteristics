@@ -49,6 +49,7 @@ class ViewController: UIViewController,UICollectionViewDataSource ,UICollectionV
         
         self.view.addSubview(collectionView)
         self.collectionView = collectionView
+       
         // collectionViewLayout :
         // UICollectionViewLayout
         // UICollectionViewFlowLayout

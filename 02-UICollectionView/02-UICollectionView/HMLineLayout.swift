@@ -136,8 +136,15 @@ class HMLineLayout: UICollectionViewFlowLayout {
     }
 
     
-    
-    
+    //MARK: - 必须添加这个不然会报错
+    /** 
+    Logging only once for UICollectionViewFlowLayout cache mismatched frame
+    */
+    override func finalLayoutAttributesForDisappearingItemAtIndexPath(itemIndexPath: NSIndexPath) -> UICollectionViewLayoutAttributes? {
+        let attr = self.layoutAttributesForItemAtIndexPath(itemIndexPath)?.copy() as! UICollectionViewLayoutAttributes
+        // manipulate the attr
+        return attr
+    }
     
     
     

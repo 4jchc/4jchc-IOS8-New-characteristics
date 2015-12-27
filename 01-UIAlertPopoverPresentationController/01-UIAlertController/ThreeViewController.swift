@@ -10,6 +10,27 @@ import UIKit
 
 class ThreeViewController: UIViewController {
 
+//    - (id)initWithCoder:(NSCoder *)decoder
+//    {
+//    if (self = [super initWithCoder:decoder]) {
+//    self.modalPresentationStyle = UIModalPresentationCustom;
+//    self.transitioningDelegate = [HMTransition sharedtransition];
+//    }
+//    return self;
+//    }
+//    
+//    ///从面板脱线选择
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        
+        self.modalPresentationStyle = UIModalPresentationStyle.Custom
+        self.transitioningDelegate = HMTransition.sharedHMTransition
+   
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

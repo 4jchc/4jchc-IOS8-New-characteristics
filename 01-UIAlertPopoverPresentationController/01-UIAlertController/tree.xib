@@ -10,8 +10,25 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PP5-fm-Ydt">
+                    <rect key="frame" x="274" y="285" width="52" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="tree.xib">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
             <animations/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.28709712570000001" green="0.87628235480000005" blue="0.1084342292" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="PP5-fm-Ydt" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KfK-fx-cNC"/>
+                <constraint firstItem="PP5-fm-Ydt" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XxM-9T-jbd"/>
+                <constraint firstItem="PP5-fm-Ydt" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ogk-i8-ohw"/>
+                <constraint firstItem="PP5-fm-Ydt" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="sAT-gX-aGY"/>
+            </constraints>
+            <point key="canvasLocation" x="257" y="236"/>
         </view>
     </objects>
 </document>

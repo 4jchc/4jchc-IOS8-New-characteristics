@@ -14,6 +14,9 @@
 		968AEEB21C300685001A25FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968AEEB01C300685001A25FA /* LaunchScreen.storyboard */; };
 		968AEEBD1C300685001A25FA /* _2_UICollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AEEBC1C300685001A25FA /* _2_UICollectionViewTests.swift */; };
 		968AEEC81C300685001A25FA /* _2_UICollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AEEC71C300685001A25FA /* _2_UICollectionViewUITests.swift */; };
+		968AEED81C301E78001A25FA /* HMImageCellForCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AEED61C301E78001A25FA /* HMImageCellForCollectionViewCell.swift */; };
+		968AEED91C301E78001A25FA /* HMImageCellForCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968AEED71C301E78001A25FA /* HMImageCellForCollectionViewCell.xib */; };
+		968AEEDB1C301FF1001A25FA /* HMLineLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AEEDA1C301FF1001A25FA /* HMLineLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		968AEEC31C300685001A25FA /* 02-UICollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-UICollectionViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		968AEEC71C300685001A25FA /* _2_UICollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2_UICollectionViewUITests.swift; sourceTree = "<group>"; };
 		968AEEC91C300685001A25FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968AEED61C301E78001A25FA /* HMImageCellForCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMImageCellForCollectionViewCell.swift; sourceTree = "<group>"; };
+		968AEED71C301E78001A25FA /* HMImageCellForCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMImageCellForCollectionViewCell.xib; sourceTree = "<group>"; };
+		968AEEDA1C301FF1001A25FA /* HMLineLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLineLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		968AEEA61C300685001A25FA /* 02-UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				968AEED51C301DF2001A25FA /* 自定义UICollectionView布局 */,
 				968AEEA71C300685001A25FA /* AppDelegate.swift */,
 				968AEEA91C300685001A25FA /* ViewController.swift */,
 				968AEEAB1C300685001A25FA /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				968AEEC91C300685001A25FA /* Info.plist */,
 			);
 			path = "02-UICollectionViewUITests";
+			sourceTree = "<group>";
+		};
+		968AEED51C301DF2001A25FA /* 自定义UICollectionView布局 */ = {
+			isa = PBXGroup;
+			children = (
+				968AEEDA1C301FF1001A25FA /* HMLineLayout.swift */,
+				968AEED61C301E78001A25FA /* HMImageCellForCollectionViewCell.swift */,
+				968AEED71C301E78001A25FA /* HMImageCellForCollectionViewCell.xib */,
+			);
+			name = "自定义UICollectionView布局";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +249,7 @@
 				968AEEB21C300685001A25FA /* LaunchScreen.storyboard in Resources */,
 				968AEEAF1C300685001A25FA /* Assets.xcassets in Resources */,
 				968AEEAD1C300685001A25FA /* Main.storyboard in Resources */,
+				968AEED91C301E78001A25FA /* HMImageCellForCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968AEEDB1C301FF1001A25FA /* HMLineLayout.swift in Sources */,
 				968AEEAA1C300685001A25FA /* ViewController.swift in Sources */,
+				968AEED81C301E78001A25FA /* HMImageCellForCollectionViewCell.swift in Sources */,
 				968AEEA81C300685001A25FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="_1_UIAlertPopoverPresentationController" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AsX-Dt-JG3">
+                    <rect key="frame" x="276" y="85" width="51" height="31"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="53g-wD-D4p"/>
+                        <constraint firstAttribute="height" constant="31" id="vqx-7a-xk7"/>
+                    </constraints>
+                </switch>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="孙艺珍" translatesAutoresizingMaskIntoConstraints="NO" id="Hco-LI-y8q">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="Gl4-mn-ybJ"/>
+                        <constraint firstAttribute="height" constant="128" id="GqF-uR-IWI"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Gl4-mn-ybJ"/>
+                            <exclude reference="GqF-uR-IWI"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="Gl4-mn-ybJ"/>
+                            <include reference="GqF-uR-IWI"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="AsX-Dt-JG3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-200" id="LyM-gh-MI2"/>
+                <constraint firstItem="Hco-LI-y8q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QLp-9C-FrT"/>
+                <constraint firstItem="Hco-LI-y8q" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="mYB-1s-APA"/>
+                <constraint firstItem="AsX-Dt-JG3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mbT-tA-60y"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Hco-LI-y8q"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="QLp-9C-FrT"/>
+                    <exclude reference="mYB-1s-APA"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular">
+                <mask key="subviews">
+                    <include reference="AsX-Dt-JG3"/>
+                    <include reference="Hco-LI-y8q"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="QLp-9C-FrT"/>
+                    <include reference="mYB-1s-APA"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="孙艺珍" width="104" height="110"/>
+    </resources>
+</document>

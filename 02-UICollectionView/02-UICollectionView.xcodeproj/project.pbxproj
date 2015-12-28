@@ -17,6 +17,8 @@
 		968AEED81C301E78001A25FA /* HMImageCellForCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AEED61C301E78001A25FA /* HMImageCellForCollectionViewCell.swift */; };
 		968AEED91C301E78001A25FA /* HMImageCellForCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968AEED71C301E78001A25FA /* HMImageCellForCollectionViewCell.xib */; };
 		968AEEDB1C301FF1001A25FA /* HMLineLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AEEDA1C301FF1001A25FA /* HMLineLayout.swift */; };
+		96EDCCFE1C313FE000DC8993 /* HMStackLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EDCCFD1C313FE000DC8993 /* HMStackLayout.swift */; };
+		96EDCD011C31477E00DC8993 /* HMCircleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EDCD001C31477E00DC8993 /* HMCircleLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		968AEED61C301E78001A25FA /* HMImageCellForCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMImageCellForCollectionViewCell.swift; sourceTree = "<group>"; };
 		968AEED71C301E78001A25FA /* HMImageCellForCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMImageCellForCollectionViewCell.xib; sourceTree = "<group>"; };
 		968AEEDA1C301FF1001A25FA /* HMLineLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLineLayout.swift; sourceTree = "<group>"; };
+		96EDCCFD1C313FE000DC8993 /* HMStackLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMStackLayout.swift; sourceTree = "<group>"; };
+		96EDCD001C31477E00DC8993 /* HMCircleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMCircleLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 		968AEEA61C300685001A25FA /* 02-UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				968AEED51C301DF2001A25FA /* 自定义UICollectionView布局 */,
+				96EDCCFF1C31474B00DC8993 /* HMCircleLayout圆形布局 */,
+				96EDCCFC1C313F9700DC8993 /* HMStackLayout中心布局 */,
+				968AEED51C301DF2001A25FA /* HMLineLayout水平布局 */,
 				968AEEA71C300685001A25FA /* AppDelegate.swift */,
 				968AEEA91C300685001A25FA /* ViewController.swift */,
 				968AEEAB1C300685001A25FA /* Main.storyboard */,
@@ -132,14 +138,31 @@
 			path = "02-UICollectionViewUITests";
 			sourceTree = "<group>";
 		};
-		968AEED51C301DF2001A25FA /* 自定义UICollectionView布局 */ = {
+		968AEED51C301DF2001A25FA /* HMLineLayout水平布局 */ = {
 			isa = PBXGroup;
 			children = (
 				968AEEDA1C301FF1001A25FA /* HMLineLayout.swift */,
 				968AEED61C301E78001A25FA /* HMImageCellForCollectionViewCell.swift */,
 				968AEED71C301E78001A25FA /* HMImageCellForCollectionViewCell.xib */,
 			);
-			name = "自定义UICollectionView布局";
+			name = "HMLineLayout水平布局";
+			sourceTree = "<group>";
+		};
+		96EDCCFC1C313F9700DC8993 /* HMStackLayout中心布局 */ = {
+			isa = PBXGroup;
+			children = (
+				96EDCCFD1C313FE000DC8993 /* HMStackLayout.swift */,
+			);
+			name = "HMStackLayout中心布局";
+			path = "HMStackLayout布局";
+			sourceTree = "<group>";
+		};
+		96EDCCFF1C31474B00DC8993 /* HMCircleLayout圆形布局 */ = {
+			isa = PBXGroup;
+			children = (
+				96EDCD001C31477E00DC8993 /* HMCircleLayout.swift */,
+			);
+			name = "HMCircleLayout圆形布局";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96EDCD011C31477E00DC8993 /* HMCircleLayout.swift in Sources */,
 				968AEEDB1C301FF1001A25FA /* HMLineLayout.swift in Sources */,
 				968AEEAA1C300685001A25FA /* ViewController.swift in Sources */,
+				96EDCCFE1C313FE000DC8993 /* HMStackLayout.swift in Sources */,
 				968AEED81C301E78001A25FA /* HMImageCellForCollectionViewCell.swift in Sources */,
 				968AEEA81C300685001A25FA /* AppDelegate.swift in Sources */,
 			);
@@ -504,6 +529,7 @@
 				968AEECE1C300685001A25FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		968AEECF1C300685001A25FA /* Build configuration list for PBXNativeTarget "02-UICollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				968AEED11C300685001A25FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		968AEED21C300685001A25FA /* Build configuration list for PBXNativeTarget "02-UICollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +547,7 @@
 				968AEED41C300685001A25FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

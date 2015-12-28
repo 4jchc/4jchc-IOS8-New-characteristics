@@ -13,14 +13,21 @@ class HMLineLayout: UICollectionViewFlowLayout {
 
     let HMItemWH:CGFloat = 100
 
-    override init() {
-        super.init()
-    }
+//    override init() {
+//        super.init()
+//    }
+//
+//    required init?(coder aDecoder: NSCoder) {
+//        fatalError("init(coder:) has not been implemented")
+//    }
 
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
+//    override func collectionViewContentSize() -> CGSize {
+//        
+//        return CGSizeMake(500, 500);
+//    }
+    
+    
+    
     
     /**
     *  只要显示的边界发生改变就重新布局:
@@ -56,7 +63,7 @@ class HMLineLayout: UICollectionViewFlowLayout {
         var adjustOffsetX:CGFloat = CGFloat.max
     
         for attrs in array{
-            let attrs = attrs as! UICollectionViewLayoutAttributes
+            let attrs = attrs.copy() as! UICollectionViewLayoutAttributes
             if abs(attrs.center.x - centerX) < abs(adjustOffsetX){
                 
                 adjustOffsetX = attrs.center.x - centerX;
@@ -64,7 +71,7 @@ class HMLineLayout: UICollectionViewFlowLayout {
 
         }
         
-        return CGPointMake(proposedContentOffset.x + adjustOffsetX, proposedContentOffset.y);
+        return CGPointMake(proposedContentOffset.x + adjustOffsetX, proposedContentOffset.y)
     }
 
 
@@ -97,7 +104,7 @@ class HMLineLayout: UICollectionViewFlowLayout {
     
     override func layoutAttributesForElementsInRect(rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
         
-        // 0.计算可见的矩形框
+        // 0.计算可见的矩形框UICollectionViewLayoutAttributes
         
         var visiableRect:CGRect = CGRect()
         visiableRect.size = self.collectionView!.frame.size;
@@ -108,15 +115,13 @@ class HMLineLayout: UICollectionViewFlowLayout {
 
         // 计算屏幕最中间的x
         let centerX:CGFloat = self.collectionView!.contentOffset.x + self.collectionView!.frame.size.width * 0.5;
-      
         
         // 2.遍历所有的布局属性
-
         for attrs in array{
+            //MARK: - +copy()就不会放大了
             let attrs = attrs as! UICollectionViewLayoutAttributes
             // 如果不在屏幕上,直接跳过
             if CGRectContainsRect(visiableRect, attrs.frame) == false{
-                
                 continue
             }
             // 每一个item的中点x
@@ -128,13 +133,25 @@ class HMLineLayout: UICollectionViewFlowLayout {
             attrs.transform = CGAffineTransformMakeScale(scale, scale);
             
         }
-        
-        
-        
-        
         return array as? [UICollectionViewLayoutAttributes];
     }
 
+//    override func layoutAttributesForElementsInRect(rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
+//        let attributes = super.layoutAttributesForElementsInRect(rect)
+//        var attributesCopy = [UICollectionViewLayoutAttributes]()
+//        for itemAttributes in attributes! {
+//            let itemAttributesCopy = itemAttributes.copy() as! UICollectionViewLayoutAttributes
+//            // manipulate itemAttributesCopy
+//            attributesCopy.append(itemAttributesCopy)
+//        }
+//        return attributesCopy
+//    
+//    }
+    
+    
+    
+    
+    
     
     //MARK: - 必须添加这个不然会报错
     /** 
@@ -145,7 +162,7 @@ class HMLineLayout: UICollectionViewFlowLayout {
         // manipulate the attr
         return attr
     }
-    
+
     
     
     

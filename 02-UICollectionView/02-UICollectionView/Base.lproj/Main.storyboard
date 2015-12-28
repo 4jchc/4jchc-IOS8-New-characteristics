@@ -16,12 +16,77 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5i-u0-J6Q">
+                                <rect key="frame" x="203" y="499" width="194" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Hh8-Hq-5jV"/>
+                                    <constraint firstAttribute="width" constant="194" id="wuw-2L-2Fh"/>
+                                </constraints>
+                                <state key="normal" title="UICollectionViewFlowLayout">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeCollectionViewLayout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wW8-bF-FoP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOy-Gc-4Gk">
+                                <rect key="frame" x="205" y="545" width="170" height="30"/>
+                                <animations/>
+                                <state key="normal" title="HMCircleLayout圆形布局">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeCollectionViewLayout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UcK-e1-RI1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfO-JP-puR">
+                                <rect key="frame" x="411" y="471" width="169" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="169" id="rdI-AV-Yfh"/>
+                                    <constraint firstAttribute="height" constant="30" id="rqK-fB-X3A"/>
+                                </constraints>
+                                <state key="normal" title="HMStackLayout中心布局">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeCollectionViewLayout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2p6-mJ-8Aa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djt-Lc-g2I">
+                                <rect key="frame" x="20" y="471" width="159" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="72r-wt-9xt"/>
+                                    <constraint firstAttribute="width" constant="159" id="UlL-78-RSB"/>
+                                </constraints>
+                                <state key="normal" title="HMLineLayout水平布局">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeCollectionViewLayout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jXL-WT-qNq"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="0.53985430739999996" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jOy-Gc-4Gk" firstAttribute="top" secondItem="B5i-u0-J6Q" secondAttribute="bottom" constant="16" id="0n8-ZX-1iW"/>
+                            <constraint firstItem="Djt-Lc-g2I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Ais-WB-vA1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pfO-JP-puR" secondAttribute="bottom" constant="99" id="UAd-Xe-O7y"/>
+                            <constraint firstAttribute="trailing" secondItem="pfO-JP-puR" secondAttribute="trailing" constant="20" id="ZKb-co-kHS"/>
+                            <constraint firstItem="B5i-u0-J6Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b0T-Db-xle"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jOy-Gc-4Gk" secondAttribute="bottom" constant="25" id="fD4-MC-SBx"/>
+                            <constraint firstItem="jOy-Gc-4Gk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-10" id="pNy-KJ-5DH"/>
+                            <constraint firstAttribute="bottom" secondItem="Djt-Lc-g2I" secondAttribute="bottom" constant="99" id="zab-6Y-FWZ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="316" y="314"/>
         </scene>
     </scenes>
 </document>

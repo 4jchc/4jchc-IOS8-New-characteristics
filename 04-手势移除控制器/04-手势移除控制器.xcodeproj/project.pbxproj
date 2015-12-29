@@ -14,6 +14,7 @@
 		9696C9F11C329F080003476A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9696C9EF1C329F080003476A /* LaunchScreen.storyboard */; };
 		9696C9FC1C329F080003476A /* _4________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9696C9FB1C329F080003476A /* _4________Tests.swift */; };
 		9696CA071C329F080003476A /* _4________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9696CA061C329F080003476A /* _4________UITests.swift */; };
+		9696CA161C32AC490003476A /* HMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9696CA151C32AC490003476A /* HMNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9696CA021C329F080003476A /* 04-手势移除控制器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-手势移除控制器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9696CA061C329F080003476A /* _4________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_4________UITests.swift"; sourceTree = "<group>"; };
 		9696CA081C329F080003476A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9696CA151C32AC490003476A /* HMNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		9696C9E51C329F080003476A /* 04-手势移除控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				9696CA141C32AC140003476A /* 手势移除控制器 */,
 				9696C9E61C329F080003476A /* AppDelegate.swift */,
 				9696C9E81C329F080003476A /* ViewController.swift */,
 				9696C9EA1C329F080003476A /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				9696CA081C329F080003476A /* Info.plist */,
 			);
 			path = "04-手势移除控制器UITests";
+			sourceTree = "<group>";
+		};
+		9696CA141C32AC140003476A /* 手势移除控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				9696CA151C32AC490003476A /* HMNavigationController.swift */,
+			);
+			path = "手势移除控制器";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				9696C9E91C329F080003476A /* ViewController.swift in Sources */,
 				9696C9E71C329F080003476A /* AppDelegate.swift in Sources */,
+				9696CA161C32AC490003476A /* HMNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

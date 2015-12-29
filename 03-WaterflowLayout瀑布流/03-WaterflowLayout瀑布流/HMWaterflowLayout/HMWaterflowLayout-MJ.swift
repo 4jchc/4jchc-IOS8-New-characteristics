@@ -6,6 +6,12 @@
 //  Copyright © 2015年 sijichcai. All rights reserved.
 //
 
+
+
+
+//MARK: - 不能用
+
+
 import UIKit
 
 ///*****✅1.1定义代理协议
@@ -31,7 +37,7 @@ class HMWaterflowLayout: UICollectionViewLayout {
     weak var delegate:HMWaterflowLayoutDelegate!
     
     /** 这个字典用来存储每一列最大的Y值(每一列的高度) */
-    lazy var maxYDict:NSMutableDictionary = NSMutableDictionary()
+    lazy var maxYDict = NSMutableDictionary()
 
     /** 存放所有的布局属性 */
     lazy var attrsArray:NSMutableArray = NSMutableArray()
@@ -87,13 +93,13 @@ class HMWaterflowLayout: UICollectionViewLayout {
     */
     override func collectionViewContentSize() -> CGSize {
 
-        var maxColumn:NSString = "0"
+        var maxColumn:Int = 0
 
         self.maxYDict.enumerateKeysAndObjectsUsingBlock( { (column: AnyObject!, maxY: AnyObject!, stop: UnsafeMutablePointer<ObjCBool>) -> () in
             
             if (maxY as! NSNumber).floatValue > self.maxYDict[maxColumn]?.floatValue {
                 
-                maxColumn = column as! NSString
+                maxColumn = column as! Int
             }
         })
         return CGSizeMake(0, self.maxYDict[maxColumn]! as! CGFloat + self.sectionInset.bottom as CGFloat);
@@ -106,34 +112,33 @@ class HMWaterflowLayout: UICollectionViewLayout {
     */
     override func layoutAttributesForItemAtIndexPath(indexPath: NSIndexPath) -> UICollectionViewLayoutAttributes? {
         
-//        // 假设最短的那一列的第0列
-//        var minColumn:NSString = "0"
-//        // 找出最短的那一列
-//        self.maxYDict.enumerateKeysAndObjectsUsingBlock( { (column: AnyObject!, maxY: AnyObject!, stop: UnsafeMutablePointer<ObjCBool>) -> () in
-//            
-//            
-//            if maxY.floatValue < self.maxYDict[minColumn]?.floatValue {
-//                
-//                minColumn = column as! NSString
-//                print(minColumn)
-//            }
-//            
-//        })
-        // 获取最短那一列
-        var minColumn:Int = 0  // 先假设第0列最短
-        for (column, maxY) in maxYDict {
-            // 当前这列的最大Y值 小于 第 minYColumn 列的最大Y值
-            if maxY.floatValue < maxYDict[minColumn]?.floatValue {
-                // 找到更短的一列
-                print("maxYDict[minColumn]?.floatValue\(maxYDict[minColumn]?.floatValue)")
-                minColumn = column as! Int
+        // 假设最短的那一列的第0列
+        var minColumn:Int = 0
+        // 找出最短的那一列
+        self.maxYDict.enumerateKeysAndObjectsUsingBlock( { (column: AnyObject!, maxY: AnyObject!, stop: UnsafeMutablePointer<ObjCBool>) -> () in
+            
+            
+            if (maxY as! NSNumber).floatValue < self.maxYDict[minColumn]?.floatValue {
+                print("self.maxYDict[minColumn]?.floatValue\(self.maxYDict[minColumn]?.floatValue)")
+                minColumn = column.integerValue
+                print(minColumn)
             }
-        }
+            
+        })
         
         
+//        // 获取最短那一列
+//        var minColumn:Int = 0  // 先假设第0列最短
+//        for (column, maxY) in maxYDict {
+//            // 当前这列的最大Y值 小于 第 minYColumn 列的最大Y值
+//            if maxY.floatValue < maxYDict[minColumn]?.floatValue {
+//                // 找到更短的一列
+//                print("maxYDict[minColumn]?.floatValue\(maxYDict[minColumn]?.floatValue)")
+//                minColumn = column as! Int
+//            }
+//        }
         
-        
-        
+ 
         
         // 计算尺寸
         let width:CGFloat = (self.collectionView!.frame.size.width - self.sectionInset.left - self.sectionInset.right - CGFloat(self.columnsCount! - 1) * self.columnMargin)/CGFloat(self.columnsCount!)

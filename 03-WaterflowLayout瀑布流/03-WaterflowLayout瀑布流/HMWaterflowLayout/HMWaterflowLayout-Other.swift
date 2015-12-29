@@ -76,7 +76,6 @@ class HMWaterflowLayout_Other: UICollectionViewLayout {
 
         // 2.计算所有cell的属性
         self.attrsArray.removeAllObjects()
-        
         let count:Int = (self.collectionView?.numberOfItemsInSection(0))!
         for var i:Int = 0; i < count; i++ {
             
@@ -145,12 +144,7 @@ class HMWaterflowLayout_Other: UICollectionViewLayout {
                 minColumn = column
             }
         }
-        
-        
-        
-        
-        
-        
+
         // 计算尺寸
         let width:CGFloat = (self.collectionView!.frame.size.width - self.sectionInset.left - self.sectionInset.right - CGFloat(self.columnsCount! - 1) * self.columnMargin)/CGFloat(self.columnsCount!)
         

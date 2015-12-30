@@ -12,8 +12,8 @@
 		965C49771C341B360085C022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965C49751C341B360085C022 /* Main.storyboard */; };
 		965C49791C341B360085C022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965C49781C341B360085C022 /* Assets.xcassets */; };
 		965C497C1C341B360085C022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965C497A1C341B360085C022 /* LaunchScreen.storyboard */; };
-		965C49871C341B360085C022 /* _5_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C49861C341B360085C022 /* _5_____Tests.swift */; };
 		965C49921C341B360085C022 /* _5_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C49911C341B360085C022 /* _5_____UITests.swift */; };
+		965C49A01C3421BD0085C022 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C499F1C3421BD0085C022 /* UIAlertController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +42,11 @@
 		965C497B1C341B360085C022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		965C497D1C341B360085C022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		965C49821C341B360085C022 /* 05-指纹识别Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-指纹识别Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		965C49861C341B360085C022 /* _5_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5_____Tests.swift"; sourceTree = "<group>"; };
 		965C49881C341B360085C022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		965C498D1C341B360085C022 /* 05-指纹识别UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-指纹识别UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		965C49911C341B360085C022 /* _5_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5_____UITests.swift"; sourceTree = "<group>"; };
 		965C49931C341B360085C022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965C499F1C3421BD0085C022 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Extension.swift"; path = "../../../../美团-即时通讯-微博💗/4jchc-Extension/4jchc-Extension/4jchc-Extension/Extension【扩展延伸】/UIAlertController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +97,7 @@
 		965C49701C341B360085C022 /* 05-指纹识别 */ = {
 			isa = PBXGroup;
 			children = (
+				965C499F1C3421BD0085C022 /* UIAlertController+Extension.swift */,
 				965C49711C341B360085C022 /* AppDelegate.swift */,
 				965C49731C341B360085C022 /* ViewController.swift */,
 				965C49751C341B360085C022 /* Main.storyboard */,
@@ -110,7 +111,6 @@
 		965C49851C341B360085C022 /* 05-指纹识别Tests */ = {
 			isa = PBXGroup;
 			children = (
-				965C49861C341B360085C022 /* _5_____Tests.swift */,
 				965C49881C341B360085C022 /* Info.plist */,
 			);
 			path = "05-指纹识别Tests";
@@ -256,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965C49A01C3421BD0085C022 /* UIAlertController+Extension.swift in Sources */,
 				965C49741C341B360085C022 /* ViewController.swift in Sources */,
 				965C49721C341B360085C022 /* AppDelegate.swift in Sources */,
 			);
@@ -265,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				965C49871C341B360085C022 /* _5_____Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

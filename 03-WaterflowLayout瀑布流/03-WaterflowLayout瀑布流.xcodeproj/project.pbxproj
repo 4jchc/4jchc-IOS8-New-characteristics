@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		961AAF221C32544A004003BE /* HMWaterflowLayout-Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961AAF211C32544A004003BE /* HMWaterflowLayout-Other.swift */; };
+		965C49561C33BDD10085C022 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C49551C33BDD10085C022 /* CollectionViewController.swift */; };
+		965C49581C33BE140085C022 /* CollectionviewStroyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965C49571C33BE140085C022 /* CollectionviewStroyboard.storyboard */; };
+		965C495A1C33C1E00085C022 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C49591C33C1E00085C022 /* Shop.swift */; };
+		965C495D1C33C8BA0085C022 /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 965C495B1C33C8BA0085C022 /* 2.plist */; };
+		965C495E1C33C8BA0085C022 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 965C495C1C33C8BA0085C022 /* 3.plist */; };
+		965C49601C33CD270085C022 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C495F1C33CD270085C022 /* WaterfallLayout.swift */; };
+		965C49621C33D6580085C022 /* WaterfallImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C49611C33D6580085C022 /* WaterfallImageCell.swift */; };
+		965C49641C33FCE00085C022 /* WaterfallFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C49631C33FCE00085C022 /* WaterfallFooterView.swift */; };
 		96EDCD0F1C3162EA00DC8993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EDCD0E1C3162EA00DC8993 /* AppDelegate.swift */; };
 		96EDCD111C3162EA00DC8993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EDCD101C3162EA00DC8993 /* ViewController.swift */; };
 		96EDCD141C3162EA00DC8993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EDCD121C3162EA00DC8993 /* Main.storyboard */; };
@@ -87,6 +95,14 @@
 
 /* Begin PBXFileReference section */
 		961AAF211C32544A004003BE /* HMWaterflowLayout-Other.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMWaterflowLayout-Other.swift"; sourceTree = "<group>"; };
+		965C49551C33BDD10085C022 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		965C49571C33BE140085C022 /* CollectionviewStroyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionviewStroyboard.storyboard; sourceTree = "<group>"; };
+		965C49591C33C1E00085C022 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		965C495B1C33C8BA0085C022 /* 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 2.plist; sourceTree = "<group>"; };
+		965C495C1C33C8BA0085C022 /* 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
+		965C495F1C33CD270085C022 /* WaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		965C49611C33D6580085C022 /* WaterfallImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallImageCell.swift; sourceTree = "<group>"; };
+		965C49631C33FCE00085C022 /* WaterfallFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallFooterView.swift; sourceTree = "<group>"; };
 		96EDCD0B1C3162EA00DC8993 /* 03-WaterflowLayout瀑布流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-WaterflowLayout瀑布流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EDCD0E1C3162EA00DC8993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96EDCD101C3162EA00DC8993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -227,9 +243,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		962668311C33BB6B00BDD8FE /* 03-WaterflowLayout瀑布流stroyboard版 */ = {
+			isa = PBXGroup;
+			children = (
+				965C49551C33BDD10085C022 /* CollectionViewController.swift */,
+				965C49571C33BE140085C022 /* CollectionviewStroyboard.storyboard */,
+				965C495F1C33CD270085C022 /* WaterfallLayout.swift */,
+				965C49611C33D6580085C022 /* WaterfallImageCell.swift */,
+				965C49631C33FCE00085C022 /* WaterfallFooterView.swift */,
+				965C49591C33C1E00085C022 /* Shop.swift */,
+				965C495B1C33C8BA0085C022 /* 2.plist */,
+				965C495C1C33C8BA0085C022 /* 3.plist */,
+			);
+			path = "03-WaterflowLayout瀑布流stroyboard版";
+			sourceTree = "<group>";
+		};
 		96EDCD021C3162EA00DC8993 = {
 			isa = PBXGroup;
 			children = (
+				962668311C33BB6B00BDD8FE /* 03-WaterflowLayout瀑布流stroyboard版 */,
 				96EDCDDF1C317B6F00DC8993 /* 1.plist */,
 				96EDCDD31C31652C00DC8993 /* bridge.h */,
 				96EDCD0D1C3162EA00DC8993 /* 03-WaterflowLayout瀑布流 */,
@@ -574,7 +606,10 @@
 				96EDCDE01C317B6F00DC8993 /* 1.plist in Resources */,
 				96EDCD191C3162EA00DC8993 /* LaunchScreen.storyboard in Resources */,
 				96EDCD161C3162EA00DC8993 /* Assets.xcassets in Resources */,
+				965C495E1C33C8BA0085C022 /* 3.plist in Resources */,
+				965C495D1C33C8BA0085C022 /* 2.plist in Resources */,
 				96EDCD781C31645700DC8993 /* MJRefresh.bundle in Resources */,
+				965C49581C33BE140085C022 /* CollectionviewStroyboard.storyboard in Resources */,
 				96EDCD141C3162EA00DC8993 /* Main.storyboard in Resources */,
 				96EDCDDA1C31743700DC8993 /* HMShopCell.xib in Resources */,
 			);
@@ -601,12 +636,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965C49561C33BDD10085C022 /* CollectionViewController.swift in Sources */,
 				96EDCD9C1C31646200DC8993 /* NSObject+MJCoding.m in Sources */,
 				96EDCDCB1C3164CA00DC8993 /* SDWebImagePrefetcher.m in Sources */,
 				96EDCDD21C3164CA00DC8993 /* UIView+WebCacheOperation.m in Sources */,
 				96EDCDC31C3164CA00DC8993 /* MKAnnotationView+WebCache.m in Sources */,
 				96EDCD9B1C31646200DC8993 /* NSObject+MJClass.m in Sources */,
 				96EDCD961C31646200DC8993 /* MJExtensionConst.m in Sources */,
+				965C495A1C33C1E00085C022 /* Shop.swift in Sources */,
+				965C49641C33FCE00085C022 /* WaterfallFooterView.swift in Sources */,
 				96EDCD7A1C31645700DC8993 /* UIScrollView+MJExtension.m in Sources */,
 				96EDCD111C3162EA00DC8993 /* ViewController.swift in Sources */,
 				96EDCDCE1C3164CA00DC8993 /* UIImage+MultiFormat.m in Sources */,
@@ -633,6 +671,7 @@
 				96EDCD6E1C31645700DC8993 /* MJRefreshHeader.m in Sources */,
 				96EDCD761C31645700DC8993 /* MJRefreshNormalHeader.m in Sources */,
 				96EDCDC91C3164CA00DC8993 /* SDWebImageDownloaderOperation.m in Sources */,
+				965C49601C33CD270085C022 /* WaterfallLayout.swift in Sources */,
 				96EDCD9A1C31646200DC8993 /* MJPropertyType.m in Sources */,
 				96EDCD7B1C31645700DC8993 /* UIScrollView+MJRefresh.m in Sources */,
 				96EDCD7C1C31645700DC8993 /* UIView+MJExtension.m in Sources */,
@@ -646,6 +685,7 @@
 				96EDCD731C31645700DC8993 /* MJRefreshBackNormalFooter.m in Sources */,
 				96EDCDC51C3164CA00DC8993 /* SDImageCache.m in Sources */,
 				96EDCD9D1C31646200DC8993 /* NSObject+MJKeyValue.m in Sources */,
+				965C49621C33D6580085C022 /* WaterfallImageCell.swift in Sources */,
 				96EDCD991C31646200DC8993 /* MJPropertyKey.m in Sources */,
 				96EDCD6D1C31645700DC8993 /* MJRefreshFooter.m in Sources */,
 				96EDCD6F1C31645700DC8993 /* MJRefreshAutoGifFooter.m in Sources */,

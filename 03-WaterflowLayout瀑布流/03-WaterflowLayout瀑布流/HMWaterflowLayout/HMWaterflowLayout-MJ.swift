@@ -99,7 +99,7 @@ class HMWaterflowLayout: UICollectionViewLayout {
             
             if (maxY as! NSNumber).floatValue > self.maxYDict[maxColumn]?.floatValue {
                 
-                maxColumn = column as! Int
+                maxColumn = maxY as! Int
             }
         })
         return CGSizeMake(0, self.maxYDict[maxColumn]! as! CGFloat + self.sectionInset.bottom as CGFloat);
@@ -120,7 +120,7 @@ class HMWaterflowLayout: UICollectionViewLayout {
             
             if (maxY as! NSNumber).floatValue < self.maxYDict[minColumn]?.floatValue {
                 print("self.maxYDict[minColumn]?.floatValue\(self.maxYDict[minColumn]?.floatValue)")
-                minColumn = column.integerValue
+                minColumn = maxY.integerValue
                 print(minColumn)
             }
             

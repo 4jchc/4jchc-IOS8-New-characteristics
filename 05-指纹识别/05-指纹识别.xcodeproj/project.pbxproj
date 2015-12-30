@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		965C49721C341B360085C022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C49711C341B360085C022 /* AppDelegate.swift */; };
+		965C49741C341B360085C022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C49731C341B360085C022 /* ViewController.swift */; };
+		965C49771C341B360085C022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965C49751C341B360085C022 /* Main.storyboard */; };
+		965C49791C341B360085C022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965C49781C341B360085C022 /* Assets.xcassets */; };
+		965C497C1C341B360085C022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965C497A1C341B360085C022 /* LaunchScreen.storyboard */; };
+		965C49871C341B360085C022 /* _5_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C49861C341B360085C022 /* _5_____Tests.swift */; };
+		965C49921C341B360085C022 /* _5_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C49911C341B360085C022 /* _5_____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		965C49831C341B360085C022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 965C49661C341B360085C022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965C496D1C341B360085C022;
+			remoteInfo = "05-指纹识别";
+		};
+		965C498E1C341B360085C022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 965C49661C341B360085C022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965C496D1C341B360085C022;
+			remoteInfo = "05-指纹识别";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		965C496E1C341B360085C022 /* 05-指纹识别.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-指纹识别.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		965C49711C341B360085C022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		965C49731C341B360085C022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		965C49761C341B360085C022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		965C49781C341B360085C022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		965C497B1C341B360085C022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		965C497D1C341B360085C022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965C49821C341B360085C022 /* 05-指纹识别Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-指纹识别Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		965C49861C341B360085C022 /* _5_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5_____Tests.swift"; sourceTree = "<group>"; };
+		965C49881C341B360085C022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965C498D1C341B360085C022 /* 05-指纹识别UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-指纹识别UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		965C49911C341B360085C022 /* _5_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5_____UITests.swift"; sourceTree = "<group>"; };
+		965C49931C341B360085C022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		965C496B1C341B360085C022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965C497F1C341B360085C022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965C498A1C341B360085C022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		965C49651C341B360085C022 = {
+			isa = PBXGroup;
+			children = (
+				965C49701C341B360085C022 /* 05-指纹识别 */,
+				965C49851C341B360085C022 /* 05-指纹识别Tests */,
+				965C49901C341B360085C022 /* 05-指纹识别UITests */,
+				965C496F1C341B360085C022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		965C496F1C341B360085C022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965C496E1C341B360085C022 /* 05-指纹识别.app */,
+				965C49821C341B360085C022 /* 05-指纹识别Tests.xctest */,
+				965C498D1C341B360085C022 /* 05-指纹识别UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965C49701C341B360085C022 /* 05-指纹识别 */ = {
+			isa = PBXGroup;
+			children = (
+				965C49711C341B360085C022 /* AppDelegate.swift */,
+				965C49731C341B360085C022 /* ViewController.swift */,
+				965C49751C341B360085C022 /* Main.storyboard */,
+				965C49781C341B360085C022 /* Assets.xcassets */,
+				965C497A1C341B360085C022 /* LaunchScreen.storyboard */,
+				965C497D1C341B360085C022 /* Info.plist */,
+			);
+			path = "05-指纹识别";
+			sourceTree = "<group>";
+		};
+		965C49851C341B360085C022 /* 05-指纹识别Tests */ = {
+			isa = PBXGroup;
+			children = (
+				965C49861C341B360085C022 /* _5_____Tests.swift */,
+				965C49881C341B360085C022 /* Info.plist */,
+			);
+			path = "05-指纹识别Tests";
+			sourceTree = "<group>";
+		};
+		965C49901C341B360085C022 /* 05-指纹识别UITests */ = {
+			isa = PBXGroup;
+			children = (
+				965C49911C341B360085C022 /* _5_____UITests.swift */,
+				965C49931C341B360085C022 /* Info.plist */,
+			);
+			path = "05-指纹识别UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		965C496D1C341B360085C022 /* 05-指纹识别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965C49961C341B360085C022 /* Build configuration list for PBXNativeTarget "05-指纹识别" */;
+			buildPhases = (
+				965C496A1C341B360085C022 /* Sources */,
+				965C496B1C341B360085C022 /* Frameworks */,
+				965C496C1C341B360085C022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-指纹识别";
+			productName = "05-指纹识别";
+			productReference = 965C496E1C341B360085C022 /* 05-指纹识别.app */;
+			productType = "com.apple.product-type.application";
+		};
+		965C49811C341B360085C022 /* 05-指纹识别Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965C49991C341B360085C022 /* Build configuration list for PBXNativeTarget "05-指纹识别Tests" */;
+			buildPhases = (
+				965C497E1C341B360085C022 /* Sources */,
+				965C497F1C341B360085C022 /* Frameworks */,
+				965C49801C341B360085C022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				965C49841C341B360085C022 /* PBXTargetDependency */,
+			);
+			name = "05-指纹识别Tests";
+			productName = "05-指纹识别Tests";
+			productReference = 965C49821C341B360085C022 /* 05-指纹识别Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		965C498C1C341B360085C022 /* 05-指纹识别UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965C499C1C341B360085C022 /* Build configuration list for PBXNativeTarget "05-指纹识别UITests" */;
+			buildPhases = (
+				965C49891C341B360085C022 /* Sources */,
+				965C498A1C341B360085C022 /* Frameworks */,
+				965C498B1C341B360085C022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				965C498F1C341B360085C022 /* PBXTargetDependency */,
+			);
+			name = "05-指纹识别UITests";
+			productName = "05-指纹识别UITests";
+			productReference = 965C498D1C341B360085C022 /* 05-指纹识别UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		965C49661C341B360085C022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = sijichcai;
+				TargetAttributes = {
+					965C496D1C341B360085C022 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					965C49811C341B360085C022 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 965C496D1C341B360085C022;
+					};
+					965C498C1C341B360085C022 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 965C496D1C341B360085C022;
+					};
+				};
+			};
+			buildConfigurationList = 965C49691C341B360085C022 /* Build configuration list for PBXProject "05-指纹识别" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 965C49651C341B360085C022;
+			productRefGroup = 965C496F1C341B360085C022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965C496D1C341B360085C022 /* 05-指纹识别 */,
+				965C49811C341B360085C022 /* 05-指纹识别Tests */,
+				965C498C1C341B360085C022 /* 05-指纹识别UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		965C496C1C341B360085C022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965C497C1C341B360085C022 /* LaunchScreen.storyboard in Resources */,
+				965C49791C341B360085C022 /* Assets.xcassets in Resources */,
+				965C49771C341B360085C022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965C49801C341B360085C022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965C498B1C341B360085C022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		965C496A1C341B360085C022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965C49741C341B360085C022 /* ViewController.swift in Sources */,
+				965C49721C341B360085C022 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965C497E1C341B360085C022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965C49871C341B360085C022 /* _5_____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965C49891C341B360085C022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965C49921C341B360085C022 /* _5_____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		965C49841C341B360085C022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 965C496D1C341B360085C022 /* 05-指纹识别 */;
+			targetProxy = 965C49831C341B360085C022 /* PBXContainerItemProxy */;
+		};
+		965C498F1C341B360085C022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 965C496D1C341B360085C022 /* 05-指纹识别 */;
+			targetProxy = 965C498E1C341B360085C022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		965C49751C341B360085C022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965C49761C341B360085C022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		965C497A1C341B360085C022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965C497B1C341B360085C022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		965C49941C341B360085C022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		965C49951C341B360085C022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		965C49971C341B360085C022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-指纹识别/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.-5-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		965C49981C341B360085C022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-指纹识别/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.-5-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		965C499A1C341B360085C022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-指纹识别Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.-5-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-指纹识别.app/05-指纹识别";
+			};
+			name = Debug;
+		};
+		965C499B1C341B360085C022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-指纹识别Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.-5-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-指纹识别.app/05-指纹识别";
+			};
+			name = Release;
+		};
+		965C499D1C341B360085C022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-指纹识别UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.-5-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-指纹识别";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		965C499E1C341B360085C022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-指纹识别UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.-5-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-指纹识别";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		965C49691C341B360085C022 /* Build configuration list for PBXProject "05-指纹识别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965C49941C341B360085C022 /* Debug */,
+				965C49951C341B360085C022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965C49961C341B360085C022 /* Build configuration list for PBXNativeTarget "05-指纹识别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965C49971C341B360085C022 /* Debug */,
+				965C49981C341B360085C022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		965C49991C341B360085C022 /* Build configuration list for PBXNativeTarget "05-指纹识别Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965C499A1C341B360085C022 /* Debug */,
+				965C499B1C341B360085C022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		965C499C1C341B360085C022 /* Build configuration list for PBXNativeTarget "05-指纹识别UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965C499D1C341B360085C022 /* Debug */,
+				965C499E1C341B360085C022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 965C49661C341B360085C022 /* Project object */;
+}

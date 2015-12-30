@@ -21,6 +21,10 @@ protocol HMWaterflowLayout_OtherDelegate:NSObjectProtocol{
 class HMWaterflowLayout_Other: UICollectionViewLayout {
     
     
+    //单例
+    static let sharedHMWaterflowLayout_Other = HMWaterflowLayout_Other()
+
+    
     var sectionInset:UIEdgeInsets = UIEdgeInsets()
     /** 每一列之间的间距 */
     var columnMargin:CGFloat = CGFloat()
